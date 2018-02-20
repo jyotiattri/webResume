@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+.section-1{
+	background-color: #CDD4D3;
+	background-attachment: fixed !important;
+	padding-bottom: 10px;
+}
+.section-1 p{
+	float: right;
+	background-color: #749BAB;
+	color: white;
+	padding: 1.05em;
+}
+.section-1 h1,h2,h4{
+	text-align: center;
+
+}
+
+.section-1 h1{
+	font-size: 72px;
+	color: #1D4F44;
+	font-family: 'Raleway', sans-serif;
+	font-weight:100;
+	padding: 30px;
+}
+
+.section-1 h2{
+	font-size: 48px;
+	color: #367A6B;
+	font-family: 'Raleway', sans-serif;
+	font-weight:100;
+}
+
+.section-1 h4{
+	font-size: 24px;
+	color: #367A6B;
+	font-family: 'Raleway', sans-serif;
+	font-weight:100;
+	margin-bottom: 7em;
+}
+
+.js,.html,.css, .front-end, .web-design, .sketch, .ai, .bootstrap{
+	padding: 5px !important;
+}
+
+
+.web-design{
+	margin-top: 5px;
+	margin-left: 5px;
+
+}
+.sketch, .ai, .bootstrap{
+	margin-top: 5px;
+}
+
+.section-2{
+	background-color: #F8F9FA;	
+	background-attachment: fixed;
+}
+
+.section-2 h2{
+	font-size: 3em;
+	font-family: 'Raleway', sans-serif;
+	font-weight:100;
+	margin-top: 2em;
+}
+
+.plus-icon{
+	padding: 4em;
+}
+
+.sec-2-text{
+	font-size: 2.25em;
+	font-family: 'Raleway', sans-serif;
+	font-weight:100;
+}
+
+
+.section-3{
+	background-color: #83C9B9;
+	background-attachment: fixed;
+	padding: 5em;
+}
+
+.section-3 h2{
+	font-size: 3em;
+	font-family: 'Raleway', sans-serif;
+	font-weight:100;
+	color: white;
+}
+
+.section-4{
+	background-color: #2BB293;
+}
+
+.section-4 p{
+	font-family: 'Raleway', sans-serif;
+	font-weight:100;
+	color: white;
+	font-size: 1.5em;
+	padding-left: 1em;
+}
+
+/*.section-4 .contact-me{ 
+	border-right: solid 2px white;
+	padding: 4em;
+}*/
+
+.section-4 .contact-me p span{ 
+	font-size: 1.6em;
+}
+
+.section-4 .row .col-md-6{
+	margin-top: 3em;
+}
+.section-4 .contact-me { 
+	padding-top: 3.5em;
+}
+.section-4 .social-media{
+	padding: 5em;
+}
+.section-4 .social-media p{
+	text-align: center;
+} 
+
+.no-padding{
+	padding: 0px !important;
+}
+
+.section-2 .row .text{
+	margin-top: 30%;
+}
+
+@media screen and (max-width: 400px) {
+    .section-4 .col-md-6 p span {
+        font-size: 1.5em !important;
+    }
+	.section-4 .col-md-6 p {
+        font-size: 1em;
+    }
+
+    .section-3 h2{
+    	font-size: 2em;
+    }
+    .sec-2-text{
+    	font-size: 1.75em;
+    }
+    .section-2 h2{
+    	font-size: 2em;
+    }
+
+    .section-1 h1{
+    	font-size: 3em;
+    }
+    .section-1 h2{
+    	font-size: 3em;
+    }
+    .section-1 h4{
+    	 margin-bottom: 5em;
+    }
+
+    .text{
+		padding: 0px !important;
+    }
+}
+
+
